@@ -1,2 +1,148 @@
-<doctype html>
-<title> hallo </title>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My first Bulma website</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b03a2cdc2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="columns is-centered has-padding-top-1">
+        <div class="column is-8"> 
+          <div class="logo"><img src="./img/Logo.png"> </div>
+        </div>
+        <div class="column is-0">
+          <div class="toggle" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="columns home has-text-centered is-centered is-vcentered ">
+        <div class="column bg-img" style="background-image: url('img/Homepage-photo.png')"><span class="home">"laten we buiten eten <br> en de zomer proeven."</span></div>
+      </div>
+    </body>
+      <footer>
+        <div class="columns is-multiline has-text-centered is-centered footer">
+          <div class="column is-3">
+            <p class="has-margin-bottom-6 title is-size-4">Op de hoogte blijven?</p>
+            <form class="email">
+              <input class="input" type="email" placeholder="emailadres">
+                <label for="email"></label>
+            </form>
+          </div>
+          <div class="column is-3">
+            <img src="./img/logo_ensuite.png">
+            <p>maandag - zaterdag</p>
+            <p>Lunch 12:30 - 16:00</p>
+            <p>Biltstraat 20, Utrecht</p>
+          </div>
+          <div class="column is-3">
+            <img class="footer-img" src="./img/Logo_small.png">
+            <p>maandag - zaterdag</p>
+            <p>Diner 17:30 - 22:30</p>
+            <p>Biltstraat 23, Utrecht</p>
+          </div>
+          <div class="column is-3 has-text-left has-padding-left-3">
+            <div class="has-margin-left-1">
+            <p class="title is-size-4 has-margin-bottom-9">Contact</p>
+            <p>030 234 35 25</p>
+            <button class="reserveren-button has-margin-top-6 has-padding-top-8 has-padding-bottom-8 has-padding-right-3 has-background-white has-margin-bottom-3" onclick="togglePopup()"><i class="pen has-padding-8 has-background-white fas fa-pen-nib"></i>  &nbsp;  &nbsp;  &nbsp; RESERVEREN</button>
+            </div>
+          </div>
+            <div class="column is-4 has-text-left has-padding-top-4">
+              <p> © 2020 Restaurant Concours</p>
+            </div>
+            <div class="column is-4 has-padding-top-4">
+              <img class="has-padding-right-7 instagram-photo" src="./img/icn_instagram@2x.png">
+              <img class="facebook-photo" src="./img/icn_facebook@2x.png">
+            </div>
+            <div class="column is-4 has-text-right has-padding-top-4">
+              <p> info@restaurantconcours.nl</p>
+            </div>
+          </div>
+        </footer>
+    </div>
+    <aside>
+    <div id="sidebar" class="has-padding-left-4 has-padding-top-1 ">
+      <div class="toggle-leave has-padding-bottom-3" onclick="toggleSidebar()">
+        <span></span>
+      </div>
+      <button class="reserveer-nu has-padding-top-8 has-padding-bottom-8 has-padding-left-3 has-padding-right-3 has-text-white is-size-6 has-margin-bottom-6" onclick="reserveerToggle()">Reserveer nu</button>
+      <ul class="sidelist">
+        <li class="has-padding-bottom-5"><a class="has-text-white" href="index.html">Home</a></li> 
+        <li><a class="has-text-white" href="restaurant.html">Restaurant</a></li>
+        <li><a class="has-text-white" href="private-dining.html">Private Dining</a></li>
+        <li class="has-padding-bottom-5"><a class="has-text-white" href="chefstable.html">Chefstable</a></li>
+        <li><a class="has-text-white" href="index.html">Over ons</a></li>
+        <li><a class="has-text-white" href="team.html">Team</a></li>
+        <li class="has-padding-bottom-5"><a class="has-text-white" href="leveranciers.html">Leveranciers</a></li>
+        <li class="has-padding-bottom-5"><a class="has-text-white" href="event.html">Events</a></li>
+        <li><a class="has-text-white" href="cadeaubon.html">Cadeaubonnen</a></li>
+      </ul>
+    </div>
+    <div id="pop-up">
+      <div class="columns is-mobile has-text-centered">
+        <div class="column is-narrow">
+          <div class="toggle-leave-popup" onclick="togglePopup()">
+            <span></span>
+          </div>
+        </div>
+        <div class="column has-margin-top-7 has-margin-right-2">
+          <p class="popup-restaurant-text">Restaurant Concours</p>
+        </div>
+      </div>
+      <div class="columns is-mobile selectie-popup has-margin-bottom-6 has-margin-left-8">
+        <div class="column is-3 has-margin-right-8">
+          Personen
+        </div>
+        <div class="column is-7 has-text-white">
+          2 personen
+        </div>
+        <div class="column is-2">
+          <div class="has-text-white">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-mobile selectie-popup has-margin-bottom-6 has-margin-left-8">
+        <div class="column is-3 has-margin-right-8">
+          Datum
+        </div>
+        <div class="column is-7 has-text-white">
+          morgen
+        </div>
+        <div class="column is-2">
+          <div class="has-text-white">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-mobile selectie-popup has-margin-bottom-6 has-margin-left-8">
+        <div class="column is-3 has-margin-right-8">
+          Tijd
+        </div>
+        <div class="column is-7 has-text-white">
+          12:00
+        </div>
+        <div class="column is-2">
+          <div class="has-text-white">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-mobile selectie-popup has-margin-bottom-7 has-margin-left-8 has-background-white">
+        <div class="column is-10 has-text-right popup-restaurant-text-purple"> TOON BESCHIKBARE OPTIES </div>
+        <div class="column is-2"> 1 </div>
+      </div>
+      <div class="cadeaubon has-margin-left-3 has-text-centered">
+        Heeft u een cadeaubon ontvangen?
+      </div>
+    </div>
+    </aside>
+    <script type="text/javascript" src="lib/main.js"></script>
+</html>

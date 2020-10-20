@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lamartm/functional-programming/issues"
   },
-  "homepage": "https://github.com/lamartm/functional-programming#readme"
+  "homepage": "https://github.com/lamartm/functional-programming#readme",
+  "dependencies": {
+    "d3": "^6.2.0",
+    "react": "^16.14.0"
+  }
 }

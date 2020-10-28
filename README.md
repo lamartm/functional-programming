@@ -15,7 +15,7 @@ Carpoolen is het delen van je auto met mensen die dezelfde bestemming hebben. Di
 De carpool locaties binnen Nederland beschikken niet allemaal van dezelfde voorzieningen. Zo heeft de een laadpunt en de ander toegankelijkheid voor gehandicapten. Ik ga kijken wat nu precies de mogelijkheden zijn van de carpool locaties, en welke verbanden ik hieruit kan maken met de locaties.
 
 ## Deelvragen
-1. Hoeveel parkeerplaatsen zijn er in de omgeving van carpool locaties?
+***1. Hoeveel parkeerplaatsen zijn er in de omgeving van carpool locaties?***
 
     Carpool locaties zijn natuurlijk niet de enige locaties waar je elkaar kan zien. Er zijn dan altijd wel parkeetplaatsen in de buurt van carpool locaties waar je wellicht
     elkaar kan zien. Voor dit zal ik de variabel Aantal parkeer plaatsen gebruiken en die vergelijken met de carpool locatie namen (areadesc)

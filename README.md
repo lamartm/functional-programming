@@ -33,5 +33,4 @@ Ik zal hiervoor de dataset **GEO Carpool** gebruiken en ga de volgende variabell
 
 ## Verwachtingen
 
-Ik verwacht dat de carpool locaties met de meeste parkeer plaatsen niet gelijk de meeste laad punten heeft. Toegankelijkheid voor gehandicapten zal ook niet overeen komen met
-de meeste parkeer plaatsen.
+De carpool locatie met de meeste parkeerplaatsen zal naar mijn verwachting veel voorzieningen hebben. De afstanden tussen de carpool locaties met verschillende voorzieningen zal waarschijnlijk niet erg groot zijn.

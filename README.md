@@ -9,7 +9,7 @@ In deze repo zal ik al mijn keuzes voor het opschonen en presenteren van de data
 
 **Wat zijn de limieten van de carpool locaties binnen Nederland?**
 
-Ik zal hiervoor de dataset GEO Carpool gebruiken en ga de variabel AreaDesc, aantal_parkeer_plaatsen, aantal_laad_punten, toegankelijk_voor_gehandicapten en maximale_doorrijhoogte. Areadesc zal de main variabel zijn waarmee ik de vergelijkingen ga maken.
+Ik zal hiervoor de dataset GEO Carpool gebruiken en ga de variabel AreaDesc, aantal_parkeer_plaatsen, aantal_laad_punten, toegankelijk_voor_gehandicapten en maximale_doorrijhoogte. Areadesc zal de main variabel zijn waarmee ik de vergelijkingen ga maken. Ik zit er ook aan na te denken om de variabel location te gebruiken om de data te mappen en misschien de afstanden tussen de carpool locaties die een laadpunt hebben te visualiseren.
 
 Ik verwacht dat de carpool locaties met de meeste parkeer plaatsen niet gelijk de meeste laad punten heeft. Toegankelijkheid voor gehandicapten zal ook niet overeen komen met
 de meeste parkeer plaatsen.

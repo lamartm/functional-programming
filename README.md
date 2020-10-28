@@ -22,7 +22,7 @@ De carpool locaties binnen Nederland beschikken niet allemaal van dezelfde voorz
 
 ### Variabelen
 
-Ik zal hiervoor de dataset **GEO Carpool** gebruiken en ga de variabellen:
+Ik zal hiervoor de dataset **GEO Carpool** gebruiken en ga de volgende variabellen gebruiken:
 
 - AreaDesc
 - aantal_parkeer_plaatsen

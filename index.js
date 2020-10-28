@@ -1,63 +1,33 @@
-var deData = data()
+const api = 'https://opendata.rdw.nl/resource/9c54-cmfx.json'
+const areadesc = 'areadesc'
 
-// console.log(deData)
-
-let favorieteKleur = []
-
-for (answer of deData.data){
-    favorieteKleur.push(answer.lievelingskleur)
-}
-
-// if(favorieteKleur.includes("0", "", "/")) {
-//  return null
-// }
-// let nul = {"0" : null, "" : null, "/" : null}
-// favorieteKleur.replace(/0/g, null).replace(/""/g, null).replace(/"/")
-
-let nonUsableAnswers = ["/", "", "0"]
-
-let newShit = favorieteKleur.filter(f => !nonUsableAnswers.includes(f))
-
-// zat hier te strugglen omdat ik geen aangepaste array krijg, ging toen de les opnieuw kijken en kwam erachter dat een functie iets 1 keer maar returned
-
-// function test(shizzle) {
-//     for(answer of shizzle) {
-//     if (!answer.includes('#')) {
-//         return `#${answer}`
-//     }
-// }
-// }
-
-//moet het dus storen in een nieuwe array
-
-function test(shizzle) {
-    let newArrayShizzle = []
-    for(answer of shizzle) {
-    if (!answer.includes('#')) {
-        newArrayShizzle.push(`#${answer}`)
-    } else if (answer.includes('#')){
-        newArrayShizzle.push(answer)
-    }
-}
-return newArrayShizzle
-}
-
-//Brian ging me helpen om dit een stuk makkelijker te maken met behulp van map, zie zelf de logica wel in!
-
-const arrayMetShizzle = newShit.map(shizz => {
-    if(!shizz.includes('#')){
-    return `#${shizz}`
-    }
-    return shizz
+getData(api)
+    .then(data => {
+    const areadescArray = filteredData(data, areadesc)
+    console.log(areadescArray)
 })
 
 
-// let dindmek = "yo fakka"
-// function testing(test) {
-//     if(test.includes("yo fakka")){
-//         return true
-//     } else {
-//         return false
-//     }
-// }
-console.log(test(newShit))
+
+async function getData(url) {
+const response = await fetch(url);
+const data = await response.json();
+return data;
+}
+
+function filteredData (dataArray, column) {
+    return dataArray.map(result => result[column])
+}
+
+// const url = 'https://opendata.rdw.nl/resource/9c54-cmfx.json'
+// fetch(url)
+//     .then(
+//         response => {
+//             console.log(response)
+//             response.json()
+//             .then( data => {
+//                 console.log(data)
+//             }
+//                 )
+//         }
+//     )

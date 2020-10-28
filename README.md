@@ -9,16 +9,15 @@ In deze repo zal ik al mijn keuzes voor het opschonen en presenteren van de data
 
 ## Hoofdvraag
 
-### Wat zijn de verschillen van de carpool locaties binnen Nederland?
+### Wat zijn de mogelijkheden van de carpool locaties binnen Nederland?
 
-De carpool locaties binnen Nederland beschikken niet allemaal van dezelfde voorzieningen. Zo heeft de een laadpunt en de ander toegankelijkheid voor gehandicapten. Ik ga kijken wat nu precies de verschillen zijn van de carpool locaties, en welke verbanden ik hieruit kan maken met de locaties.
+De carpool locaties binnen Nederland beschikken niet allemaal van dezelfde voorzieningen. Zo heeft de een laadpunt en de ander toegankelijkheid voor gehandicapten. Ik ga kijken wat nu precies de mogelijkheden zijn van de carpool locaties, en welke verbanden ik hieruit kan maken met de locaties.
 
 ## Deelvragen
 1. Hoeveel parkeerplaatsen beschikken de carpool locaties?
-2. Welke carpool locaties beschikken van een laadpunt?
+2. Waar in Nederland kan je het best met een elektrisch auto komen om te carpoolen?
 3. Welke carpool locaties zijn toegankelijk voor gehandicapten?
-4. Wat is de maximale door rij hoogte van de verschillende carpool locaties?
-5. Wat zijn de afstanden van de carpool locaties met verschillende voorzieningen?
+4. Wat zijn de afstanden van de carpool locaties met verschillende voorzieningen?
 
 ### Variabelen
 
@@ -28,7 +27,6 @@ Ik zal hiervoor de dataset **GEO Carpool** gebruiken en ga de volgende variabell
 - aantal_parkeer_plaatsen
 - aantal_laad_punten
 - toegankelijk_voor_gehandicapten
-- maximale_doorrijhoogte
 - Location
 
 ## Verwachtingen

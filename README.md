@@ -46,6 +46,7 @@ De carpool locaties binnen Nederland beschikken niet allemaal van dezelfde voorz
    toegankelijkheid voor gehandicapten, aantal laadpunten en aantal parkeerplaatsen. Een grote visualisatie die alles wat meer duidelijkheid geeft.
    
    Mogelijke visualisatie:
+   
    ![Visu 4](https://github.com/lamartm/functional-programming/blob/main/images/mogelijke%20visu%204.png)
 
 ### Variabelen

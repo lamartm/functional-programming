@@ -19,22 +19,34 @@ De carpool locaties binnen Nederland beschikken niet allemaal van dezelfde voorz
 
    Carpool locaties zijn natuurlijk niet de enige locaties waar je elkaar kan zien. Er zijn dan altijd wel parkeetplaatsen in de buurt van carpool locaties waar je wellicht
    elkaar kan zien. Voor dit zal ik de variabel Aantal parkeer plaatsen gebruiken en die vergelijken met de carpool locatie namen (areadesc)
+   
+   Mogelijke visualisatie:
+   ![Visu 1](https://github.com/lamartm/functional-programming/blob/main/images/mogelijke%20visu%201.png)
     
 **2. Waar in Nederland kan je het best met een elektrisch auto komen om te carpoolen?**
 
    Eigenaren van elektrische auto's weten dat je niet overal nog even snel je auto kan opladen. Hierdoor zullen ze natuurlijk geinteresseerd zijn in de carpool locaties waar
    er een laad punt bevindt. Hier zal ik kijken naar alle carpool locaties die een laad punt hebben. Hiervoor gebruik ik de variabel Aantal Laadpunten en carpool locaties
    (areadesc)
+   
+   Mogelijke visualisatie:
+   ![Visu 2](https://github.com/lamartm/functional-programming/blob/main/images/mogelijke%20visu%202.png)
     
 **3. Welke carpool locaties zijn toegankelijk voor gehandicapten?**
 
    Gehandicapten hebben ook de mogelijkheid om te carpoolen. Het probleem alleen is dat de ene locatie beter voorzien is voor gehandicapten dan de andere. Ik ga hier kijken
    naar alle carpool locaties waar er voorzieningen zijn voor gehandicapten. Hiervoor gebruik ik de variabelen Toegankelijk voor gehandicapten en carpool locaties (areadesc)
+   
+   Mogelijke visualisatie:
+   ![Visu 3](https://github.com/lamartm/functional-programming/blob/main/images/mogelijke%20visu%203.png)
     
 **4. Wat zijn de afstanden van de carpool locaties met verschillende voorzieningen?**
 
    Het is wel interessant om te zien hoe ver een locatie met een laadpunt is met die van een die voorzieningen heeft voor gehandicapten. Hiervoor wil ik de variabelen locatie,
    toegankelijkheid voor gehandicapten, aantal laadpunten en aantal parkeerplaatsen. Een grote visualisatie die alles wat meer duidelijkheid geeft.
+   
+   Mogelijke visualisatie:
+   ![Visu 4](https://github.com/lamartm/functional-programming/blob/main/images/mogelijke%20visu%204.png)
 
 ### Variabelen
 

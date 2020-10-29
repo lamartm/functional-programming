@@ -1,0 +1,5 @@
+export const api = 'https://opendata.rdw.nl/resource/9c54-cmfx.json'
+export const areadesc = 'areadesc'
+export const laadPunten = 'aantal_laad_punten'
+export const parkeerPlaatsen = 'aantal_parkeer_plaatsen'
+export const maxInrijHoogte = 'maximale_inrij_hoogte'

@@ -1,7 +1,7 @@
 // Api en properties variabel importen van de file variables.js
-import {api, properties} from '/variables.js'
-import {getData} from '/api.js'
-import {filteredData} from '/dataTransform.js'
+import {api, properties} from './variables.js'
+import {getData} from './api.js'
+import {filteredData} from './dataTransform.js'
 
 
 //Gebruik functie getData() en zet daarin de variabel api (wat een api endpoint heeft), vervolgens maak ik een nieuwe array aan met de .map() method en daarin kijk ik of sommige objecten

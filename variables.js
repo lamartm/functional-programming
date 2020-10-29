@@ -1,5 +1,4 @@
 export const api = 'https://opendata.rdw.nl/resource/9c54-cmfx.json'
-export const areadesc = 'areadesc'
-export const laadPunten = 'aantal_laad_punten'
-export const parkeerPlaatsen = 'aantal_parkeer_plaatsen'
-export const maxInrijHoogte = 'maximale_inrij_hoogte'
+
+// Hier een variabel die een array heeft van alle properties waarmee ik ga werken, bedankt aan Brian voor het idee om het zo makkelijker te doen!
+export const properties = ['areadesc', 'aantal_laad_punten', 'aantal_parkeer_plaatsen', 'maximale_inrij_hoogte', 'toegankelijk_voor_gehandicapten']

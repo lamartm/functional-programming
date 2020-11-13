@@ -1,5 +1,4 @@
-# Frontend-data
-
+# Functional Programming
 Voor de Volkskrant moeten wij vooronderzoek doen op een aantal datasets en hieruit interessante inzichten uit halen. Het gaat hier dan om de auto in de stad. Alles wat hierover te maken heeft en interessante inzichten bevat, kunnen wij helemaal onderzoek. Het is dan wel de bedoeling dat we ook nog een passende visualisatie kunnen maken met de inzichten.Bij functional programming zal ik vooral kijken wat er in de 
 datasets allemaal in zitten en met behulp van functional patterns ze proberen op te schonen en presenteerbaar te maken.
 

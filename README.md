@@ -51,6 +51,33 @@ De carpool locaties binnen Nederland beschikken niet allemaal van dezelfde voorz
 ### Features
 Ik heb in de repository ook nog de dataset van de studenten van de CMD gecleaned. De studenten moesten een vragenlijst invullen en hieruit kwam er veel vuile data. Dit moest door funtional patterns opgeschoond worden. Dingen zoals de correcte HEX kleuren toevoegen en non-answers zoals "/" en "0" weghalen.
 
+## Install guide 🚀
+Clone deze repo:
+
+```$ git https://github.com/lamartm/functional-programming.git```
+
+Navigeer naar deze map en run de volgende command:
+
+``` npm install ```
+
+Om de project te gebruiken:
+
+``` npm run dev ```
+
+### Dependencies
+```   
+"dependencies": {
+    "d3": "^6.2.0",
+    "react": "^16.14.0"
+  }
+```
+### Scripts
+```
+"scripts": {
+    "test": "node index.js"
+  }
+```
+
 ### Variabelen
 
 Ik zal hiervoor de dataset [GEO Carpool](https://opendata.rdw.nl/Parkeren/GEO-Carpool/9c54-cmfx/data) gebruiken en ga de volgende variabellen gebruiken:
